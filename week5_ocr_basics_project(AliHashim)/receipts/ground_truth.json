@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "receipt_01_clean.jpg",
+    "merchant": "GREEN LEAF MARKET",
+    "date": "04/14/2026",
+    "subtotal": 16.02,
+    "tax": 1.34,
+    "total": 17.36,
+    "transaction": "TXN-892701",
+    "effect": "clean"
+  },
+  {
+    "filename": "receipt_02_blurry.jpg",
+    "merchant": "SUNRISE CAFE",
+    "date": "04/15/2026",
+    "subtotal": 10.5,
+    "tax": 0.84,
+    "total": 11.34,
+    "transaction": "TXN-257043",
+    "effect": "blur"
+  },
+  {
+    "filename": "receipt_03_rotated.jpg",
+    "merchant": "CITY BOOKSTORE",
+    "date": "04/16/2026",
+    "subtotal": 17.47,
+    "tax": 1.1,
+    "total": 18.57,
+    "transaction": "TXN-108481",
+    "effect": "rotate"
+  },
+  {
+    "filename": "receipt_04_noisy.jpg",
+    "merchant": "FRESH FARMACY",
+    "date": "04/17/2026",
+    "subtotal": 22.27,
+    "tax": 1.67,
+    "total": 23.94,
+    "transaction": "TXN-821421",
+    "effect": "noise"
+  },
+  {
+    "filename": "receipt_05_lowcontrast.jpg",
+    "merchant": "TECH HUB STORE",
+    "date": "04/18/2026",
+    "subtotal": 22.74,
+    "tax": 1.82,
+    "total": 24.56,
+    "transaction": "TXN-227219",
+    "effect": "lowcontrast"
+  }
+]

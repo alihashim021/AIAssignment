@@ -1,0 +1,1 @@
+This is Ai lab task/Assignment It includes 5 sample receipts, OCR code, parser code, and results. EasyOCR did not run in this container due to a dependency issue; code remains included for Kaggle/Colab execution.

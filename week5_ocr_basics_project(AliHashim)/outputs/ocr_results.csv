@@ -1,0 +1,6 @@
+file,effect,merchant_expected,merchant_parsed,date_expected,date_parsed,total_expected,total_parsed,tesseract_conf_original,tesseract_conf_preprocessed,orig_char_count,pre_char_count,easyocr_char_count,char_improvement
+receipt_01_clean.jpg,clean,GREEN LEAF MARKET,GREEN LEAF MARKET,04/14/2026,04/14/2026,17.36,,95.03,93.76,230,182,,-48
+receipt_02_blurry.jpg,blur,SUNRISE CAFE,SUNRISE CAFE,04/15/2026,64/15/2026,11.34,,93.6,91.74,214,172,,-42
+receipt_03_rotated.jpg,rotate,CITY BOOKSTORE,CITY BOOKSTORE,04/16/2026,04/16/2026,18.57,18.57,94.77,93.37,221,224,,3
+receipt_04_noisy.jpg,noise,FRESH FARMACY,jocument “Intellige,04/17/2026,,23.94,,94.93,52.5,215,21,,-194
+receipt_05_lowcontrast.jpg,lowcontrast,TECH HUB STORE,TECH HUB STORE,04/18/2026,04/18/2026,24.56,,94.91,95.31,227,186,,-41

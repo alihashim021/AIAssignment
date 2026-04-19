@@ -1,0 +1,52 @@
+{
+  "receipt_01_clean.jpg": {
+    "tesseract_original": "GREEN LEAF MARKET\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 04/14/2026\nTransaction: TXN-892701\n\nItem Price\nBananas $2.49\nMilk $4.29\nBread $3.99\nEggs $5.25\nSubtotal: $16.02\nTax: $1.34\nTOTAL: $17.36\n\nThank you for shopping!\n",
+    "tesseract_preprocessed": "GREEN LEAF MARKET\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 04/14/2026\nTransaction: TXN-892701\n\nItem\nBananas\nMilk\nBread\nEags\n\nSubtotal:\nTax:\nTOTAL:\n\nThank you for shopping!\n\n",
+    "easyocr": "[Unavailable in this environment: EasyOCR import failed: operator torchvision::nms does not exist]",
+    "parsed": {
+      "merchant": "GREEN LEAF MARKET",
+      "date": "04/14/2026",
+      "total": null
+    }
+  },
+  "receipt_02_blurry.jpg": {
+    "tesseract_original": "SUNRISE CAFE\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 04/15/2026\nTransaction: TXN-257043\n\nItem Price\nLatte $4.75\nBagel $3.50\nCookie $2.25\nSubtotal: $10.50\nTax: $0.84\nTOTAL: $11.34\n\nThank you for shopping!\n",
+    "tesseract_preprocessed": "SUNRISE CAFE\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 64/15/2026\nTransaction: TXN-257643\n\nItem\nLatte\nBagel\nCookie\n\nSubtotal:\nTax:\nTOTAL:\n\nThank you for shopping!\n\n",
+    "easyocr": "[Unavailable in this environment: EasyOCR import failed: operator torchvision::nms does not exist]",
+    "parsed": {
+      "merchant": "SUNRISE CAFE",
+      "date": "64/15/2026",
+      "total": null
+    }
+  },
+  "receipt_03_rotated.jpg": {
+    "tesseract_original": "CITY BOOKSTORE\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 04/16/2026\nTransaction: TXN- 108481\n\nItem Price\nNotebook $6.99\nPens $4.49\nMagazine $5.99\nSubtotal: $17.47\nTax: $1.10\nTOTAL: $18.57\n\nThank you for shopping!\n",
+    "tesseract_preprocessed": "CITY BOOKSTORE\n\n123 Demo Street\nDocument Intelligence Lab\nDate: 04/16/2026\nTransaction: TXN-108481\n\nPrice\n\nItem\n\nNotebook $6.99\nPens $4.49\n\nMagazine $5.99\n\nSubtotal: $17.47\nTax: $1.10\nTOTAL: $18.57\n\nThank you for shopping!\n\n",
+    "easyocr": "[Unavailable in this environment: EasyOCR import failed: operator torchvision::nms does not exist]",
+    "parsed": {
+      "merchant": "CITY BOOKSTORE",
+      "date": "04/16/2026",
+      "total": 18.57
+    }
+  },
+  "receipt_04_noisy.jpg": {
+    "tesseract_original": "FRESH FARMACY\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 04/17/2026\nTransaction: TXN-821421\n\nItem Price\nVitamins $12.99\nTea $5.49\nSoap $3.79\nSubtotal: $22.27\nTax: $1.67\nTOTAL: $23.94\n\nThank you for shopping!\n",
+    "tesseract_preprocessed": "jocument \u201cIntellige\n\n",
+    "easyocr": "[Unavailable in this environment: EasyOCR import failed: operator torchvision::nms does not exist]",
+    "parsed": {
+      "merchant": "jocument \u201cIntellige",
+      "date": null,
+      "total": null
+    }
+  },
+  "receipt_05_lowcontrast.jpg": {
+    "tesseract_original": "TECH HUB STORE\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 04/18/2026\nTransaction: TXN-227219\n\nItem Price\nUSB Cable $8.99\nMouse Pad $7.25\nBatteries $6.50\nSubtotal: $22.74\nTax: $1.82\nTOTAL: $24.56\n\nThank you for shopping!\n",
+    "tesseract_preprocessed": "TECH HUB STORE\n\n123 Demo Street\nDocument Intelligence Lab\n\nDate: 04/18/2026\nTransaction: TXN-227219\n\nItem\n\nUSB Cable\nMouse Pad\nBatteries\n\nSubtotal:\nTax:\nTOTAL:\n\nThank you for shopping!\n\n",
+    "easyocr": "[Unavailable in this environment: EasyOCR import failed: operator torchvision::nms does not exist]",
+    "parsed": {
+      "merchant": "TECH HUB STORE",
+      "date": "04/18/2026",
+      "total": null
+    }
+  }
+}

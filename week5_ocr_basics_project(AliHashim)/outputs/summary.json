@@ -1,0 +1,10 @@
+{
+  "num_receipts": 5,
+  "avg_tesseract_conf_original": 94.65,
+  "avg_tesseract_conf_preprocessed": 85.34,
+  "avg_char_improvement": -64.4,
+  "successful_total_extractions": 1,
+  "successful_date_extractions": 4,
+  "easyocr_available": false,
+  "easyocr_note": "EasyOCR import failed: operator torchvision::nms does not exist"
+}
